@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -30,4 +31,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.celeb {
+  display: flex;
+  flex-direction: row;
+}
+.celebList {
+  text-align: left;
+
+}
+.celebs {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  cursor: pointer;
+  margin: 10px;   
+}
+.celebs img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.celebrityDetails {
+  text-align: right;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+}
+.celebrityDetails img {
+  margin: 10px;
+}
+.celebrityDetails span{
+  margin: 5px;
 }
